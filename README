@@ -1,0 +1,5 @@
+A simple jQuery plugin allowing you to disable elements when an observed element becomes empty. 
+
+The following example keeps the login button disabled as long as the OpenID field is empty:
+
+$('#login_submit').disableIfEmpty('#openid_identifier');
